@@ -46,5 +46,5 @@ set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)
 
 # Compilation and linker flags.
-set(CMAKE_C_FLAGS "-std=gnu11 -mthumb -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialised -Wall -Wextra -Wno-scalar-storage-order -g3")
+set(CMAKE_C_FLAGS "-std=gnu11 -mthumb -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialized -Wall -Wextra -Wno-scalar-storage-order -g3")
 set(CMAKE_EXE_LINKER_FLAGS "-Xlinker --gc-sections ")
